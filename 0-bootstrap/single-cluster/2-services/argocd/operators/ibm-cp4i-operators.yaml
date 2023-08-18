@@ -6,7 +6,7 @@ metadata:
     argocd.argoproj.io/sync-wave: "230"
   labels:
     gitops.tier.group: ibm-cloudpak
-    gitops.tier.layer: services
+    gitops.tier.layer: servicesx
     gitops.tier.source: git
   finalizers:
     - resources-finalizer.argocd.argoproj.io
